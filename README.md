@@ -1,3 +1,4 @@
+
 # math problem solving
 # 问题 1：求解1,2,3,4四个数字可以组成多少个互不相同且无重复数字的三位数？
 
@@ -65,6 +66,23 @@ if (leap == 1) and (month > 2):
     sum += 1
     
 print ('it is the %dth day.' % sum)
+
+# 问题 5：任意三个整数排序
+
+l = []
+
+for i in range(3):
+    
+    x = int(input('integer:\n'))
+    
+    l.append(x)
+    
+l.sort() #sort()函数默认的是从小到大排序
+
+print(l)
+
+
+
         
 
                 
