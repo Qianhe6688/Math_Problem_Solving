@@ -8,4 +8,33 @@ for i in range(1,5):
                 print (i,j,k)
                 
                 
+# 问题 2：关于数轴/长整型编程练习
+i = int(input('净利润：'))
+arr = [1000000,600000,400000,200000,100000,0]
+rat = [0.01,0.015,0.03,0.05,0.075,0.1]
+r = 0
+for idx in range(0,6):
+    if i > arr[idx]:
+        r += (i - arr[idx])*rat[idx]
+        print ((i-arr[idx])*rat[idx])
+        i = arr[idx]
+print (r)
+
+# 问题 3：一个整数加上100和加上268都是完全平方数，求解该数字
+
+import math
+
+for i in range(10000):
+    # 转化为整型值
+    x = int(math.sqrt(i + 100))
+
+    y = int(math.sqrt(i + 268))
+
+    if (x*x == i + 100) and (y*y == i + 268):
+    
+        print (i)
+        
+        
+
+                
                 
