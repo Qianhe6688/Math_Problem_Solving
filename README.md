@@ -149,7 +149,17 @@ for key,value in dict.items(myD):
     time.sleep(5) # 5为暂停时间的秒数
 
 
+# 问题 10：python时间格式化
 
+import time
+
+print (time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+
+#暂停一秒
+
+time.sleep(1)
+
+print (time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
 
 
 
