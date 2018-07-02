@@ -71,6 +71,7 @@ print ('it is the %dth day.' % sum)
 
 l = []
 
+
 for i in range(3):
     
     x = int(input('integer:\n'))
@@ -124,4 +125,11 @@ y = x[:]
 
 print (y)
                 
-                
+ 
+# 问题 8：乘法口诀计算，输出9*9乘法表
+
+for i in range(1,10):
+    
+    for j in range(1,i + 1):
+        
+        print ("{} x {} = {}\t".format(i,j,i*j),end = "")         
