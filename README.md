@@ -116,6 +116,12 @@ else:
         print (recur_fibo(i))
 
         
+# 问题 7：列表数据复制
 
+x = [1,2,3]
+
+y = x[:]
+
+print (y)
                 
                 
