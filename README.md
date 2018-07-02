@@ -146,4 +146,33 @@ for key,value in dict.items(myD):
     
     print (key,value)
     
-    time.sleep(1)
+    time.sleep(5) # 5为暂停时间的秒数
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
