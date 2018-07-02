@@ -67,6 +67,7 @@ if (leap == 1) and (month > 2):
     
 print ('it is the %dth day.' % sum)
 
+
 # 问题 5：任意三个整数排序
 
 l = []
@@ -133,3 +134,16 @@ for i in range(1,10):
     for j in range(1,i + 1):
         
         print ("{} x {} = {}\t".format(i,j,i*j),end = "")         
+
+
+# 问题 9：time.sleep方法的使用，让Python暂停预定时间后再运行
+
+import time
+
+myD = {1:'a',2:'b'}
+
+for key,value in dict.items(myD):
+    
+    print (key,value)
+    
+    time.sleep(1)
