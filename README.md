@@ -163,7 +163,10 @@ print (time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
 
 
 
-#问题11 ：兔子生兔子算法问题（斐波那契数列）
+   
+   
+
+# 问题 11：兔子生兔子算法问题（斐波那契数列）
 
 a1 = 1
 
@@ -180,7 +183,7 @@ for i in range(1,21):
     a1 = a1 + b2
     
     b2 = a1 + b2
-
+    
 
 
 
