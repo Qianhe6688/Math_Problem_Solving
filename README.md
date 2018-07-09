@@ -219,6 +219,19 @@ for m in range(101,201):
     leap = 1
     
 print ('The total is %d' % h)
+
+# 问题 13：素数输出计算，质数又称素数，为在大于1的自然数中，除了1和它本身以外不再有其他因数
+for n in range(100,1000):
+    
+    i = int(n / 100)
+    
+    j = int(n / 10 % 10)
+    
+    k = int(n % 10)
+    
+    if n == i ** 3 + j ** 3 + k ** 3:
+        
+        print (n)
             
 
 
