@@ -184,15 +184,15 @@ for i in range(1,21):
     
     b2 = a1 + b2
     
-#问题12：素数输出计算
+#问题12：素数输出计算，质数又称素数，为在大于1的自然数中，除了1和它本身以外不再有其他因数
 
 h = 0
 
 leap = 1
 
-from math import sqrt
+from math import sqrt # (Square root求解平方根，如果是负数或复数，sqrt(x)会产生复数结果)
 
-from sys import stdout
+from sys import stdout # 输出到控制台
 
 for m in range(101,201):
     
@@ -208,7 +208,7 @@ for m in range(101,201):
         
     if leap == 1:
             
-            print ('%-4d' % m)
+            print ('%-3d' % m)
             
             h += 1
             
@@ -219,7 +219,7 @@ for m in range(101,201):
     leap = 1
     
 print ('The total is %d' % h)
-
+            
 
 
 
